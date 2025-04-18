@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сравнение CMS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" rel="stylesheet">
+</head>
+<body class="has-background-dark has-text-light">
+
+  <nav class="navbar is-fixed-top is-dark has-background-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-light" href="index.html">
+        <strong>CMS-Site</strong>
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarMain" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="about.html" class="navbar-item has-text-light">О CMS</a>
+        <a href="cases.html" class="navbar-item has-text-light">Кейсы</a>
+        <a href="compare.html" class="navbar-item has-text-warning">Сравнение</a>
+        <a href="articles.html" class="navbar-item has-text-light">Статьи</a>
+        <a href="contacts.html" class="navbar-item has-text-light">Контакты</a>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="section mt-6" >
+    <div class="container" >
+
+      <div class="columns is-gapless" >
+
+        <div class="column is-one-quarter mr-6 is-hidden-mobile" style="position: sticky; top: 50px; height: 100vh; overflow-y: auto; ">
+          <aside class="menu p-4 has-text-light is-hidden-mobile">
+            <p class="menu-label has-text-light">Разделы</p>
+            <ul class="menu-list">
+              <li><a href="#wordpress" class="has-text-black">WordPress</a></li>
+              <li><a href="#joomla" class="has-text-black">Joomla</a></li>
+              <li><a href="#drupal" class="has-text-black">Drupal</a></li>
+              <li><a href="#opencart" class="has-text-black">OpenCart</a></li>
+              <li><a href="#shopify" class="has-text-black">Shopify</a></li>
+              <li><a href="#1c" class="has-text-black">1С-Битрикс: Управление сайтом</a></li>
+              <li><a href="#conclusion" class="has-text-black">Заключение</a></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="column is-9">
+          <p class="title is-3 has-text-white">Сравнение популярных CMS</p>
+          
+          <div id="wordpress" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <div class="content">
+                <p class="title is-4 has-text-white">WordPress</p>
+                <figure class="image is-4by2">
+                  <img src="https://images.unsplash.com/photo-1560472355-109703aa3edc?w=1920&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29yZHByZXNzfGVufDB8fDB8fHww" alt="Описание картинки">
+                  <figcaption class="has-text-left has-text-text mt-2 mb-4">WordPress</figcaption>
+                </figure>
+                <p>
+                  WordPress — самая популярная CMS в мире, охватывающая более 40% всех сайтов в интернете. Первоначально созданная для блогов, она со временем трансформировалась в универсальную платформу с огромным числом тем и плагинов. Её главное преимущество — простота установки и использования, широкое сообщество, множество бесплатных и платных решений. С помощью WooCommerce — одного из самых мощных плагинов для WordPress — можно легко развернуть интернет-магазин. Однако WordPress не всегда идеален для крупных проектов: высокая нагрузка, сложная логика и множество плагинов могут снизить производительность и затруднить масштабирование.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="joomla" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <div class="content">
+                <p class="title is-4 has-text-white">Joomla</p>
+                <figure class="image is-4by2">
+                  <img src="image/joomla.png" alt="Описание картинки">
+                  <figcaption class="has-text-left has-text-text mt-2 mb-4">Joomla</figcaption>
+                </figure>
+                <p>
+                  Joomla стоит на втором месте по популярности. Эта CMS немного сложнее в освоении, чем WordPress, но взамен предлагает более гибкую архитектуру и лучшую поддержку пользовательских ролей и доступа. Joomla хорошо подходит для сайтов, где важна структура контента и управление пользователями. Её можно использовать и для e-commerce, но без внешних расширений, таких как VirtueMart, она не обладает встроенными функциями магазина. Это делает её менее привлекательной для электронной коммерции по сравнению с более специализированными решениями.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="drupal" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <div class="content">
+                <p class="title is-4 has-text-white">Drupal</p>
+                <figure class="image is-4by2">
+                  <img src="image/drupal.png" alt="Описание картинки">
+                  <figcaption class="has-text-left has-text-text mt-2 mb-4">Drupal</figcaption>
+                </figure>
+                <p>
+                  Drupal — выбор разработчиков и крупных организаций. Эта CMS отличается высокой гибкостью, мощной системой таксономии и возможностями для масштабирования. Drupal подходит для сложных корпоративных сайтов, порталов и платформ с множеством интеграций и ролей. Однако её крутая кривая обучения требует профессиональных навыков — простому пользователю будет трудно быстро разобраться с архитектурой системы. Drupal также поддерживает модули для e-commerce, такие как Drupal Commerce, но для эффективной работы требуется опытная команда.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="opencart" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <div class="content">
+                <p class="title is-4 has-text-white">OpenCart</p>
+                <figure class="image is-4by2">
+                  <img src="image/opencart.png" alt="Описание картинки">
+                  <figcaption class="has-text-left has-text-text mt-2 mb-4">OpenCart</figcaption>
+                </figure>
+                <p>
+                  OpenCart — CMS, специально ориентированная на электронную коммерцию. Она проста в установке и управлении, имеет интуитивно понятный интерфейс администратора и множество модулей для оплаты, доставки и аналитики. OpenCart — оптимальный выбор для небольших и средних интернет-магазинов. Однако по сравнению с более крупными решениями, такими как Magento, она ограничена в масштабируемости и кастомизации.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="shopify" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <div class="content">
+                <p class="title is-4 has-text-white">Shopify</p>
+                <figure class="image is-4by2">
+                  <img src="image/shopify.png" alt="Описание картинки">
+                  <figcaption class="has-text-left has-text-text mt-2 mb-4">Shopify</figcaption>
+                </figure>
+                <p>
+                  Shopify представляет собой облачную e-commerce платформу, которая снимает с пользователя все заботы о хостинге, обновлениях и безопасности. Она идеально подходит для начинающих продавцов и малого бизнеса благодаря простому интерфейсу, встроенным шаблонам и готовым инструментам продаж. Shopify быстро развертывается, отлично интегрируется с платёжными системами и соцсетями. Недостаток — ограниченные возможности кастомизации без платных расширений и невозможность полноценного доступа к серверной части.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="1c" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <div class="content">
+                <p class="title is-4 has-text-white">1С-Битрикс: Управление сайтом</p>
+                <figure class="image is-4by2">
+                  <img src="image/1c.png" alt="Описание картинки">
+                  <figcaption class="has-text-left has-text-text mt-2 mb-4">1С-Битрикс: Управление сайтом</figcaption>
+                </figure>
+                <p>
+                  1С-Битрикс: Управление сайтом — популярная CMS в России и СНГ, особенно в корпоративной и государственной сфере. Её ключевые преимущества — высокая безопасность, широкие интеграции с 1С и другими отечественными системами, а также мощные инструменты для электронной коммерции (в том числе с поддержкой многоскладов, логистики, CRM и маркетинга). Однако система довольно дорогая и требовательная к серверным ресурсам, а её интерфейс и архитектура могут показаться устаревшими и громоздкими по сравнению с западными аналогами.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="conclusion" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <div class="content">
+                <p class="title is-4 has-text-white">Заключение</p>
+                
+                <p>
+                  В итоге, выбор CMS должен определяться задачами проекта. WordPress хорош для блогов, малых сайтов и небольших магазинов, Shopify — для быстрого старта в электронной коммерции без технических сложностей, OpenCart — для бюджетных онлайн-магазинов, Drupal и 1С-Битрикс — для крупных корпоративных решений с высокой степенью кастомизации. Универсального решения не существует, и каждая система раскрывается только в контексте конкретных целей, бюджета и технической готовности команды.                </p>
+                <div class="table-container">
+                  <table class="table is-fullwidth has-background-black-ter">
+                    <thead>
+                      <tr>
+                        <th class="has-text-white">CMS</th>
+                        <th class="has-text-white">Простота</th>
+                        <th class="has-text-white">Гибкость</th>
+                        <th class="has-text-white">e-Commerce</th>
+                        <th class="has-text-white">Производительность</th>
+                        <th class="has-text-white">Стоимость</th>
+                        <th class="has-text-white">Целевая аудитория</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="has-text-white">WordPress</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>⭐⭐⭐</td>
+                        <td class="has-text-white">WooCommerce</td>
+                        <td class="has-text-white">Средняя</td>
+                        <td class="has-text-white">Бесплатно (опции платные)</td>
+                        <td class="has-text-white">Новички, малый бизнес</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-white">Joomla</td>
+                        <td>⭐⭐⭐</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td class="has-text-white">VirtueMart</td>
+                        <td class="has-text-white">Средняя</td>
+                        <td class="has-text-white">Бесплатно</td>
+                        <td class="has-text-white">Продвинутые пользователи</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-white">Drupal</td>
+                        <td>⭐⭐</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td class="has-text-white">Drupal Commerce</td>
+                        <td class="has-text-white">Высокая</td>
+                        <td class="has-text-white">Бесплатно</td>
+                        <td class="has-text-white">Корпорации, госструктуры</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-white">OpenCart</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>⭐⭐⭐</td>
+                        <td class="has-text-white">Встроена</td>
+                        <td class="has-text-white">Средне-высокая</td>
+                        <td class="has-text-white">Бесплатно</td>
+                        <td class="has-text-white">Небольшие магазины</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-white">Shopify</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>⭐⭐</td>
+                        <td class="has-text-white">Встроена</td>
+                        <td class="has-text-white">Очень высокая</td>
+                        <td class="has-text-white">От $29/мес</td>
+                        <td class="has-text-white">Малый бизнес</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-white">1С-Битрикс</td>
+                        <td>⭐⭐</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td class="has-text-white">Встроена</td>
+                        <td class="has-text-white">Высокая</td>
+                        <td class="has-text-white">От 15 000₽</td>
+                        <td class="has-text-white">Российские компании</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer has-background-black-ter has-text-light">
+    <div class="content has-text-centered">
+      <p>&copy; 2025 CMS-Site. Все права защищены.</p>
+    </div>
+  </footer>
+  <script src="burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+<body class="has-background-dark has-text-light">
+
+  <nav class="navbar is-dark is-fixed-top has-background-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-light" href="index.html">
+        <strong>CMS-Site</strong>
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarMain" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="about.html" class="navbar-item has-text-light">О CMS</a>
+        <a href="cases.html" class="navbar-item has-text-light">Кейсы</a>
+        <a href="compare.html" class="navbar-item has-text-light">Сравнение</a>
+        <a href="articles.html" class="navbar-item has-text-light">Статьи</a>
+        <a href="contacts.html" class="navbar-item has-text-warning">Контакты</a>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="hero is-dark is-fullheight mt-6 mb-6 px-4 py-5">
+    <div class="container mt-6">
+      <h1 class="title has-text-light">Свяжитесь с нами</h1>
+      <p class="subtitle has-text-light">Оставьте сообщение — мы свяжемся с вами как можно скорее.</p>
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+
+          <form>
+            <div class="field">
+              <label class="label has-text-light">Имя</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Ваше имя">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label has-text-light">Email</label>
+              <div class="control">
+                <input class="input" type="email" placeholder="example@domain.com">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label has-text-light">Сообщение</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Ваше сообщение..."></textarea>
+              </div>
+            </div>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link">Отправить</button>
+              </div>
+              <div class="control">
+                <button class="button is-light" type="reset">Очистить</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer has-background-black-ter has-text-light">
+    <div class="content has-text-centered">
+      <p>
+        &copy; 2025 CMS-Сайт. Все права защищены.
+      </p>
+    </div>
+  </footer>
+  <script src="burger.js"></script>
+</body>
+</html>
