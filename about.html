@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>О CMS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+</head>
+<body class="has-background-dark has-text-light">
+
+  <nav class="navbar is-fixed-top is-dark has-background-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-light" href="index.html">
+        <strong>CMS-Site</strong>
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarMain" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="about.html" class="navbar-item has-text-warning">О CMS</a>
+        <a href="cases.html" class="navbar-item has-text-light">Кейсы</a>
+        <a href="compare.html" class="navbar-item has-text-light">Сравнение</a>
+        <a href="articles.html" class="navbar-item has-text-light">Статьи</a>
+        <a href="contacts.html" class="navbar-item has-text-light">Контакты</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section  mt-6 has-background-dark " >
+    <div class="container">
+      <div class="columns is-gapless">
+
+
+        <div class="column is-one-quarter mr-6 is-hidden-mobile" style="position: sticky; top: 50px; height: 100vh; overflow-y: auto; ">
+          <aside class="menu p-4 has-text-light">
+            <p class="menu-label has-text-light">Разделы</p>
+            <ul class="menu-list">
+              <li><a href="#what" class="has-text-black">Что такое CMS?</a></li>
+              <li><a href="#how" class="has-text-black">Как работает CMS</a></li>
+              <li><a href="#advantages" class="has-text-black">Преимущества и недостатки CMS</a></li>
+              <li><a href="#types" class="has-text-black">Виды CMS</a></li>
+              <li><a href="#popular" class="has-text-black">Популярные CMS</a></li>
+              <li><a href="#choose" class="has-text-black">Как выбрать CMS</a></li>
+              <li><a href="#find" class="has-text-black">Как узнать CMS сайта</a></li>
+              <li><a href="#make" class="has-text-black">Как сделать сайт на CMS</a></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="column is-9 content" >
+          <h1 class="title has-text-light">О CMS и электронной коммерции</h1>
+
+          <div id="what" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <h2 class="has-text-light">Что такое CMS?</h2>
+              <p>CMS (англ. Content Management System) — это система управления контентом сайта. На профессиональном жаргоне CMS ещё называют «движок сайта». <a href="https://w3techs.com/technologies/overview/content_management" target="_blank" rel="noreferrer noopener nofollow">По данным агентства W3Techs</a> на CMS работает больше половины сайтов в интернете. Примеры CMS: WordPress, Joomla!, OpenCart.</p>
+              <p>На практике CMS — это веб-приложение, в котором люди создают и обслуживают сайты. Основное преимущество CMS — чтобы создать сайт и работать с ним не обязательно знать программирование.</p>
+            </div>
+          </div>
+
+
+          <div id="how" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <h2 class="has-text-light">Как работает CMS</h2>
+              <p>Какую бы CMS вы ни выбрали, работать над сайтом будете в специальном личном кабинете — панели управления. Иногда это место также называют админкой или консолью.</p>
+              <figure class="image is-4by2">
+                <img src="image/01-cms.png" alt="Описание картинки">
+                <figcaption class="has-text-left has-text-text mt-2 mb-4">Панель управления сайтом на движке WordPress</figcaption>
+              </figure>
+              <p>В плане дизайна у вас будет возможность установить на сайт готовый шаблон и настроить отдельные его элементы прямо в панели управления CMS: шрифты, цвета, изображения, логотип, кнопки, ссылки. Возможности по настройке будут отличаться в зависимости от шаблона.</p>
+              <figure class="image is-4by2">
+                <img src="image/02-cms.png" alt="Описание картинки">
+                <figcaption class="has-text-left has-text-text mt-2 mb-4">Встроенный визуальный редактор WordPress</figcaption>
+              </figure>
+              <p>Шаблоны бывают платными и бесплатными. Обычно выбрать можно среди тысяч, а то и десятков тысяч вариантов. Это делается либо в отдельном разделе панели управления, либо на специальных сайтах вроде <a href="https://www.templatemonster.com/?utm_campaign=blog_site_56869&amp;utm_source=56869&amp;utm_medium=referral&amp;aff=56869" target="_blank" rel="noreferrer noopener nofollow">TemplateMonster</a>.</p>
+              <figure class="image is-4by2">
+                <img src="image/03-cms.png" alt="Описание картинки">
+                <figcaption class="has-text-left has-text-text mt-2 mb-4">Раздел с бесплатными шаблонами в панели управления WordPress</figcaption>
+              </figure>
+              <p>Некоторые CMS кроме шаблонов поддерживают конструкторы страниц, при помощи которых можно вручную собирать страницы в визуальном редакторе. Подобно тому, как создаются презентации в PowerPoint или Google Презентациях.</p>
+              <figure class="image is-4by2">
+                <img src="image/04-cms.png" alt="Описание картинки">
+                <figcaption class="has-text-left has-text-text mt-2 mb-4">Панель управления популярным конструктором страниц для WordPress — Elementor Site Builder</figcaption>
+              </figure>
+              <p>В плане функционала сайта сразу после установки CMS на сайте будет необходимый минимум, но недостающие функции обычно можно подключить отдельно. Это делается при помощи дополнений. Их ещё называют расширениями, плагинами или модулями. С их помощью на сайт можно добавить, например, функционал интернет-магазина, контактную форму, всплывающее окно, форму подписки на рассылку, онлайн-чат, популярный в вашем регионе метод оплаты или доставки.</p>
+              <p>Как и в случае с шаблонами, дополнения тоже бывают платными и бесплатными, а найти их можно либо в отдельном разделе консоли, либо на тематических сайтах вроде <a href="https://codecanyon.net/" target="_blank" rel="noreferrer noopener nofollow">CodeCanyon</a>.</p>
+              <figure class="image is-4by2">
+                <img src="image/05-cms.png" alt="Описание картинки">
+                <figcaption class="has-text-left has-text-text mt-2 mb-4">Раздел с бесплатными дополнениями в панели управления WordPress</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="advantages" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <h2 class="has-text-light">Преимущества и недостатки CMS</h2>
+              <p>Преимущества CMS:</p>
+              <ul><li>можно создать сайт самостоятельно и за короткий промежуток времени;</li><li>не нужно разбираться в дизайне и программировании;</li><li>разработка сайта будет стоить дешевле;</li><li>удобно управлять содержимым сайта.</li></ul>
+              <p>Недостатки CMS:</p>
+              <ul><li>нужно следить за обновлениями и совместимостью новых версий с дополнениями;</li><li>производительность обычно снижается, если на сайте много дополнений;</li><li>не весь функционал получится реализовать;</li><li>не подходят для нетипичных задач.</li></ul>
+            </div>
+          </div>
+
+          <div id="types" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <h2 class="has-text-light">Виды CMS</h2>
+              <p>Все системы управления содержимым можно условно разделить на четыре вида: с открытым кодом, коробочные, самописные и фреймворки. Вкратце разберёмся, чем CMS разных видов отличаются друг от друга.</p>
+              <h4 class="has-text-light">CMS с открытым кодом</h4>
+              <p>Открытый код означает, что движок может модифицировать любой желающий. Благодаря этому в таких CMS регулярно появляются новые дополнения и темы, а также быстрее находят и устраняют уязвимости. Это одна из основных причин, по которой WordPress стал таким популярным движком. Популярные CMS с открытым кодом: WordPress, OpenCart, Joomla!, Drupal, Magento, PrestaShop.</p>
+              <h4 class="has-text-light">Коробочные CMS</h4>
+              <p>По сути такие движки отличаются только тем, что у них закрытый код, а значит внести изменения в движок могут только официальные разработчики. Это не значит, что такие CMS системы менее безопасны или у них хуже функционал, но количество тем и дополнений обычно действительно меньше. Популярные CMS из коробки: Tilda, Wix, SitePro, Shopify, Squarespace.</p>
+              <h4 class="has-text-light">Самописные CMS</h4>
+              <p>Такие движки разрабатывают на заказ под конкретный проект. Их функционал не такой широкий, как у коробочных CMS или CMS с открытым кодом, но зато максимально соответствует поставленным задачам и не содержит лишних инструментов. Единственное, при необходимости расширить функционал или закрыть уязвимости придётся обращаться к разработчику движка или искать специалиста, который будет с нуля разбираться в коде, а это деньги и время. Интересно описал <a href="https://habr.com/ru/company/parallels/blog/338492/" target="_blank" rel="noreferrer noopener nofollow">опыт и целесообразность разработки собственной CMS</a> пользователь Хабрахабра.</p>
+              <h4 class="has-text-light">Фреймворки</h4>
+              <p>Фреймворк — это надстройка над языком программирования; набор библиотек, при помощи которых можно удобно создать сайт для любых задач. Разработка сайта на фреймворке потребует больше денег и времени, а кроме сайта понадобится отдельно разрабатывать панель управления сайтом, а это по сути ещё один сайт. Но зато так вы сможете реализовать любой функционал, который вам нужен. То есть для нетипичных проектов такой способ будет в самый раз. Плюс производительность у хорошо сделанного сайта на фреймворке будет выше. Популярные фреймворки: Laravel, Ruby on Rails, Django.</p>
+            </div>
+          </div>
+
+          <div id="popular" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+              <h2 class="has-text-light">Популярные CMS</h2>
+              <p>Есть несколько сайтов, которые ведут статистику использования CMS в мире: <a href="https://w3techs.com/" target="_blank" rel="noreferrer noopener nofollow">W3Techs</a>, <a href="https://whatcms.org/" target="_blank" rel="noreferrer noopener nofollow">WhatCMS</a> и <a href="https://builtwith.com/" target="_blank" rel="noreferrer noopener nofollow">BuiltWith</a>.</p>
+              <p>Данные на каждом из этих сайтов немного отличаются, но на всех с огромным отрывом побеждает WordPress. По разным данным на этом движке работают от 30% до 40% всех сайтов, которые используют CMS.</p>
+              <p>Другие CMS, которые вошли в топ 5 на разных сайтах: Joomla!, Drupal, Wix, Shopify, Squarespace.</p>
+              <figure class="image is-4by2">
+                <img src="image/06-cms.png" alt="Описание картинки">
+                <figcaption class="has-text-left has-text-text mt-2 mb-4">Статистика использования CMS с сайта w3techs.com</figcaption>
+              </figure>
+              <figure class="image is-4by2">
+                <img src="image/07-cms.png" alt="Описание картинки">
+                <figcaption class="has-text-left has-text-text mt-2 mb-4">Статистика использования CMS с сайта whatcms.org</figcaption>
+              </figure>
+            </div>
+          </div>
+
+
+          <div id="choose" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+          <h2 class="has-text-light">Как выбрать CMS</h2>
+          <p>Выбор CMS зависит от того, какой именно сайт вы планируете запускать. Вот список популярных в Украине CMS для разных типов сайтов по версии рейтинга BuiltWith:</p>
+          <ul><li>для интернет-магазина (WordPress + WooCommerce, OpenCart, Joomla!);</li><li>для базы знаний (MediaWiki, Atlassian Confluence, DokuWiki);</li><li>для тикет-системы (Atlassian Cloud, Intercom, osTicket);</li><li>для сайта компании (WordPress, Joomla!, Drupal);</li><li>для лендинга (WordPress, Tilda);</li><li>для блога (WordPress).</li></ul>
+          <p>Хотя популярность не единственный критерий выбора CMS — есть ещё «удобство использования», «наличие подробной документации», «возможность настроить SEO», «безопасность», «скорость» — все критерии вытекают именно из популярности. И вот почему.</p>
+          <p>Большинство популярных CMS — это решения с открытым кодом. Разработчики со всего мира дорабатывают такие движки, чтобы они были безопаснее, удобнее и быстрее. Плюс для популярных движков люди охотнее пишут документацию.</p>
+          <p>То же верно и наоборот — у менее популярных CMS хуже функционал, меньше материалов по настройке специфического функционала и ниже вероятность своевременного выхода обновлений, которые закроют уязвимости.</p>
+          <p>Если собираетесь делать сайт самостоятельно, с популярной CMS вам будет удобнее разобраться. Как вариант, можете попробовать несколько движков и остановиться на том, с которым вам удобнее работать.</p>
+            </div>
+          </div>
+
+
+          <div id="find" class="card has-background-black-ter has-text-white mb-5">
+            <div class="card-content">
+          <h2 class="has-text-light">Как узнать CMS сайта</h2>
+          <p>Проанализируйте сайт при помощи <a href="https://builtwith.com/ru/" target="_blank" rel="noreferrer noopener nofollow">сервиса BuiltWith</a>. Введите домен или ссылку на сайт в поисковой строке в правом верхнем углу и нажмите «Поиск».</p>
+          <figure class="image is-4by2">
+            <img src="image/09-cms.png" alt="Описание картинки">
+          </figure>
+          <p>Через Ctrl+F найдите на следующей странице блок Content Management System. В нем будет указано, какую CMS использует сайт. Если такого блока нет, значит на сайте не используется никакая CMS.</p>
+            </div>
+          </div>
+
+
+           <div id="make" class="card has-background-black-ter has-text-white mb-5">
+              <div class="card-content">
+                <h2 class="has-text-light">Как сделать сайт на CMS</h2>
+
+                <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                  <iframe
+                    src="https://rutube.ru/play/embed/8cd97df2e445d9467bd180f93fd9fe35/"
+                    frameborder="0"
+                    allow="clipboard-write; autoplay"
+                    webkitallowfullscreen
+                    mozallowfullscreen
+                    allowfullscreen
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                  </iframe>
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer has-background-black-ter has-text-light">
+    <div class="content has-text-centered">
+      <p>
+        &copy; 2025 CMS-Site. Все права защищены.
+      </p>
+    </div>
+  </footer>
+  <script src="burger.js"></script>
+</body>
+</html>
